@@ -1,0 +1,8 @@
+---
+- name: Ping Network Devices
+  hosts: all
+  gather_facts: false
+  
+  tasks:
+    - name: Ping Device 1
+      ping:
